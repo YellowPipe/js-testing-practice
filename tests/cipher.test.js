@@ -1,4 +1,4 @@
-const caesarCipher = require('../cipher');
+const caesarCipher = require('../src/cipher');
 
 test('ciphers when spaces are present', () => {
   expect(caesarCipher('defend the east wall of the castle', 5)).toBe('ijkjsi ymj jfxy bfqq tk ymj hfxyqj');
